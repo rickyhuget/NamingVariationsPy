@@ -12,6 +12,6 @@ if __name__ == '__main__':
   elif (commands.combine_command(command)):
     output = commands.combine_phrase(phrase, operation)
   else:
-    output = "error: invalid command"
+    output = "error: invalid input"
 
   print(output)
